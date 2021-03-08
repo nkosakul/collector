@@ -1,10 +1,11 @@
 import { RouteComponentProps } from '@reach/router';
+import Login from './Login';
 
 const Home = (props: RouteComponentProps) => {
   return (
-    <>
-      <h1>Login</h1>
-    </>
+    <main>
+      <Login />
+    </main>
   );
 };
 
